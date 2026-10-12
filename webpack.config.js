@@ -53,7 +53,7 @@ module.exports = {
   },
 
   plugins: [
-    new WebpackManifestPlugin({ publicPath: './assets/' }),
+    new WebpackManifestPlugin({ publicPath: '/assets/' }),
     new MiniCssExtractPlugin({ filename: `${baseFilename}.css` }),
   ],
 };
