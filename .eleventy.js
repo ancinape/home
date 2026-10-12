@@ -2,6 +2,7 @@ const { DateTime } = require('luxon');
 const readingTime = require('eleventy-plugin-reading-time');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const fs = require('fs');
 const path = require('path');
 
@@ -26,6 +27,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;
