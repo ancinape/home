@@ -10,4 +10,5 @@ I like vexillology, veganism, Native American history, and technology.
 
 I use Arch btw.
 
-You can find me at ancinape(at)tutanota(dot)com.
+
+E-mail: ancinape(at)tutanota(dot)com
