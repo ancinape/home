@@ -35,7 +35,7 @@
     "dev:site": "env ELEVENTY_ENV=development eleventy --serve",
     "build:assets": "webpack --mode production",
     "build:site": "env ELEVENTY_ENV=production eleventy",
-    "build:site:ghpages": "env ELEVENTY_ENV=production eleventy --pathprefix=/site/",
+    "build:site:ghpages": "env ELEVENTY_ENV=production eleventy --pathprefix=/home/",
     "clean": "rm -rf ./public",
     "build-ghpages": "run-s clean build:assets build:site:ghpages"
   }
